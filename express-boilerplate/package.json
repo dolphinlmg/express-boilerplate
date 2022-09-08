@@ -6,7 +6,7 @@
     "start": "node ./bin/www",
     "dev": "nodemon -L ./bin/www ",
     "scss": "sass --watch src/scss/main.scss public/stylesheets/main.css",
-    "wp": "webpack"
+    "wp": "webpack --watch"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
